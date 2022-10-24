@@ -1,9 +1,9 @@
-﻿Console.WriteLine("Номер масти карты (1-Пики, 2-Крести, 3-Бубен, 4-Червь ):");
+﻿Console.WriteLine("Номер масти карты (1-Пики, 2-Трефы, 3-Буби, 4-Черви ):");
 int cardid = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Номер достоинства карты(11-Валет, 12-Дама, 13-Король, 14-Туз):");
 int cardDignity = Convert.ToInt32(Console.ReadLine());
 switch (cardDignity)
-{
+{и
     case 6:
         Console.WriteLine("\t Шестерка");
         break;
@@ -38,13 +38,13 @@ switch (cardid)
         Console.Write(" пик");
         break;
     case 2:
-        Console.Write("крести");
+        Console.Write("трефы");
         break;
     case 3:
-        Console.Write(" бубен");
+        Console.Write(" буби");
         break;
     case 4:
-        Console.Write(" червей");
+        Console.Write(" черви");
         break;
 }
 Console.ReadKey();
